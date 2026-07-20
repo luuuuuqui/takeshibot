@@ -1,10 +1,10 @@
 # guia do agente
 
-este repositório é uma cópia do Takeshi Bot para uso próprio.
+este repositório é uma cópia do takeshi bot para uso próprio.
 
 ## objetivo do projeto
 
-manter um bot de WhatsApp funcional, enxuto e fácil de rodar no termux.
+manter um bot de whatsapp funcional, enxuto e fácil de rodar no termux.
 
 prioridades:
 
@@ -15,10 +15,10 @@ prioridades:
 
 ## stack
 
-- Node.js 22.8 ou superior;
-- Baileys;
-- FFmpeg;
-- JSON local para persistência em runtime.
+- node.js 22.8 ou superior;
+- baileys;
+- ffmpeg;
+- json local para persistência em runtime.
 
 script principal:
 
@@ -31,13 +31,13 @@ não rode `npm start` automaticamente neste repositório.
 ## estrutura importante
 
 - `src/index.js`: entrada principal do bot;
-- `src/connection.js`: conexão com WhatsApp e estado do Baileys;
+- `src/connection.js`: conexão com whatsapp e estado do baileys;
 - `src/loader.js`: registro dos eventos;
 - `src/middlewares/onMesssagesUpsert.js`: pipeline principal de mensagens;
 - `src/utils/dynamicCommand.js`: resolução e execução de comandos;
 - `src/utils/loadCommonFunctions.js`: helpers injetados nos comandos;
-- `src/utils/database.js`: persistência JSON;
-- `src/services/`: integrações, mídia, stickers e APIs;
+- `src/utils/database.js`: persistência json;
+- `src/services/`: integrações, mídia, stickers e apis;
 - `src/commands/owner/`: comandos do dono;
 - `src/commands/admin/`: comandos administrativos;
 - `src/commands/member/`: comandos de membros.
@@ -102,7 +102,7 @@ estilo das mensagens:
 
 - sem prefixos como `feat:` ou `fix:`;
 - verbo no presente;
-- letras minúsculas;
+- letras minúsculas fora de aspas e crases;
 - crase para arquivos, diretórios e identificadores.
 
 exemplos:
