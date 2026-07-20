@@ -1,6 +1,6 @@
 # guia do agente
 
-este repositório é uma cópia privada do Takeshi Bot para uso próprio.
+este repositório é uma cópia do Takeshi Bot para uso próprio.
 
 ## objetivo do projeto
 

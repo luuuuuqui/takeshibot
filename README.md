@@ -1,6 +1,6 @@
 # Takeshi Bot
 
-Bot privado de WhatsApp baseado em Baileys, com comandos modulares e persistência local em JSON.
+Bot de WhatsApp baseado em Baileys, com comandos modulares e persistência local em JSON.
 
 Este repositório foi enxugado para uso próprio, principalmente no Termux. Ele não inclui `node_modules/`, sessões do WhatsApp, banco local, documentação pública de contribuição ou arquivos de publicação.
 
@@ -50,7 +50,7 @@ Escolha a pasta onde o bot vai ficar:
 cd ~/storage/shared
 ```
 
-Clone o repositório privado:
+Clone o repositório:
 
 ```sh
 git clone <url-do-repositorio>
@@ -505,8 +505,8 @@ Não compartilhe nem comite:
 - logs com dados sensíveis;
 - prints com código de pareamento.
 
-Este é um repositório privado. Mantenha a configuração real fora do histórico do Git sempre que possível.
+Mantenha as configurações locais e sensíveis fora do histórico do Git sempre que possível.
 
 ## Licença
 
-Este projeto usa uma licença privada. Consulte `LICENSE`.
+Este projeto é licenciado sob a GNU General Public License (GPL). Consulte o arquivo `LICENSE` para mais detalhes.
